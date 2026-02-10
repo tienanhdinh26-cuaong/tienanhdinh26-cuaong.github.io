@@ -1,0 +1,36 @@
+* {box-sizing:border-box;margin:0;padding:0;}
+body {font-family:'Segoe UI',Arial;background:GhostWhite;color:DarkSlateGray;line-height:1.5;} /* GhostWhite: Trắng khói (nền trang) | DarkSlateGray: Xám đậm (chữ) */
+
+.header {display:flex;align-items:center;justify-content:space-between;padding:15px 5%;background:White;border-bottom:3px solid Orange;} /* White: Trắng | Orange: Cam vàng (sự năng động) */
+.header h1 {color:DarkGreen;font-size:22px;} /* DarkGreen: Xanh lá đậm (màu của hy vọng và thanh xuân) */
+.banner-small {width:280px;height:70px;object-fit:cover;border-radius:35px;border:2px solid Orange;} /* Orange: Tạo điểm nhấn rực rỡ */
+
+.main-menu {background:DarkGreen;text-align:center;padding:10px;position:sticky;top:0;z-index:100;} /* DarkGreen: Tạo sự vững chãi, chuyên nghiệp */
+.main-menu a {color:Orange;text-decoration:none;margin:0 15px;font-weight:bold;font-size:13px;} /* Orange: Nổi bật trên nền xanh */
+.main-menu a:hover,.active {color:White;text-decoration:underline;} /* White: Trắng (trạng thái đang chọn) */
+
+.main-container {display:flex;width:1050px;margin:25px auto;gap:20px;}
+
+.content-box {flex:2.5;background:White;padding:25px;border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,0.05);} /* White: Giúp nội dung dễ đọc, sạch sẽ */
+.article-header h2 {color:DarkGreen;border-left:5px solid Orange;padding-left:12px;} /* Sự kết hợp giữa Xanh và Cam tạo cảm giác hiện đại */
+
+.img-container {position:relative;margin:15px 0;}
+.img-container img {width:100%;height:400px;object-fit:cover;border-radius:10px;}
+.overlay {position:absolute;bottom:0;background:rgba(0,100,0,0.7);color:White;width:100%;padding:8px;text-align:center;border-radius:0 0 10px 10px;} /* rgba(0,100,0): Xanh lá trong suốt */
+
+.sidebar-box {flex:1;}
+.action-card,.info-card {background:White;padding:18px;border-radius:15px;margin-bottom:20px;box-shadow:0 4px 12px rgba(0,0,0,0.05);}
+.action-card h3,.info-card h3 {font-size:15px;color:DarkGreen;border-bottom:2px solid Orange;padding-bottom:8px;margin-bottom:12px;}
+
+.article-header h2 { color: darkgreen; margin-bottom: 15px; }
+.img-container { position: relative; margin-bottom: 20px; }
+.img-container img { width: 100%; border-radius: 15px; }
+.overlay { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.65); color: white; padding: 10px; border-radius: 0 0 15px 15px; font-size: 14px; }
+
+.btn-action {width:100%;padding:10px;margin-bottom:8px;border:none;background:WhiteSmoke;color:DarkGreen;font-weight:bold;text-align:left;border-radius:6px;cursor:pointer;transition:0.3s;border-left:4px solid DarkGreen;} /* WhiteSmoke: Xám trắng */
+.btn-action:hover {background:DarkGreen;color:Orange;padding-left:18px;} /* Khi di chuột: Đổi màu tương phản để gây chú ý */
+
+.staff p {font-size:13px;margin:8px 0;}
+.staff strong {color:DarkGreen;}
+hr {border:0;border-top:1px dashed Silver;margin:8px 0;} /* Silver: Màu bạc (nhẹ nhàng) */
+.footer {width:100%;clear:both;background:DarkGreen;color:White;text-align:center;padding:20px;margin-top:30px;display:block;}
